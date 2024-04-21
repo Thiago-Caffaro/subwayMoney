@@ -1,0 +1,44 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    background-image: url("./i845435.jpeg");
+    background-position: center;
+    background-size: auto;
+}
+#block{
+    margin-top: 10%;
+    min-height: 800px;
+    width: 500px;
+    background-color: rgb(99, 232, 255);
+    border: solid black 3px;
+    border-radius: 5px;
+}
+.pixao{
+    transition: all 0.3s;
+}
+.pixao:hover{
+    scale: 1.5;
+    background-color: red;
+    color: rgb(34, 255, 0);
+}
+#pix{
+    transition: all 3s;
+
+}
+#pix:hover{
+    scale: 2;
+}
+#shh{
+    scale: 2;
+    font-size: 30px;
+}
+#shh:hover{
+    background-color: rgb(47, 255, 0);
+    color: red;
+}
